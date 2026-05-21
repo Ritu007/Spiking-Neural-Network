@@ -1,0 +1,53 @@
+# --- Python Build & Caches ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- IDEs and Editors ---
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+
+# --- Datasets (CRITICAL: Do not upload massive audio speech commands) ---
+SpikeVoice OS/data/
+data/
+
+# --- Logs and Outputs ---
+*.log
+test_redir.log
+training.log
+SpikeVoice OS/training.log
+SpikeVoice OS/training_progress.json
+
+# --- Agent/Developer Planning & Workflow Files ---
+instructions.md
+implementation_plan.md
+task.md
+walkthrough.md
+*.ipynb_checkpoints
+.gemini/
+GEMINI.md

@@ -1,0 +1,12 @@
+snntorch
+torch
+torchaudio
+pyaudio
+librosa
+customtkinter
+matplotlib
+pyautogui
+sounddevice
+numpy
+scipy
+tqdm
